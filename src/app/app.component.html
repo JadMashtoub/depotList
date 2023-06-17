@@ -1,0 +1,16 @@
+<div class="container">
+  <input type="text" [(ngModel)]="searchTerm" (input)="showSuggestions()" placeholder="Search...">
+  <ul class="suggestions" *ngIf="showSuggestion">
+    <li *ngFor="let suggestion of suggestedItems" (click)="selectSuggestion(suggestion)">
+      {{ suggestion.name }}
+    </li>
+  </ul>
+  <ul>
+    <li *ngFor="let item of filteredItems">
+      <span [class.highlight]="item === selected">
+        {{ item.name }}
+      </span>
+      <span class="zone" *ngIf="item.zone">({{ item.zone }})</span>
+    </li>
+  </ul>
+</div>
