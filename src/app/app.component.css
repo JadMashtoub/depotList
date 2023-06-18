@@ -11,7 +11,7 @@
 input {
   margin-bottom: 16px;
   padding: 12px;
-  font-size: 26px; 
+  font-size: 20px; 
 }
 
 .suggestions {
@@ -32,8 +32,6 @@ li {
   font-size: 26px;
   cursor: pointer;
 }
-
-
 
 .zone {
   font-weight: bold;
