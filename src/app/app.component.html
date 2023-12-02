@@ -1,16 +1,21 @@
 <div class="container">
-  <input type="text" [(ngModel)]="searchTerm" (input)="showSuggestions()" placeholder="Search...">
-  <ul class="suggestions" *ngIf="showSuggestion">
-    <li *ngFor="let suggestion of suggestedItems" (click)="selectSuggestion(suggestion)">
-      {{ suggestion.name }}
-    </li>
-  </ul>
-  <ul>
-    <li *ngFor="let item of filteredItems">
-      <span [class.highlight]="item === selected">
-        {{ item.name }}
-      </span>
-      <span class="zone" *ngIf="item.zone">({{ item.zone }})</span>
-    </li>
-  </ul>
+  <div class="search-container">
+    <input type="text" [(ngModel)]="searchTerm" (input)="showSuggestions()" placeholder="Search...">
+    <ul class="suggestions" *ngIf="showSuggestion">
+      <li *ngFor="let suggestion of suggestedItems" (click)="selectSuggestion(suggestion)">
+        {{ suggestion.name }}
+      </li>
+    </ul>
+  </div>
+  <div class="results-container">
+    <ul>
+      <li *ngFor="let item of filteredItems">
+        <span [class.highlight]="item === selected">
+          {{ item.name }}
+        </span>
+        <span class="zone" *ngIf="item.zone">({{ item.zone }})</span>
+      </li>
+    </ul>
+    <!-- <button class="button" (click)="openGoogleMaps()">View Google Maps</button> -->
+  </div>
 </div>
