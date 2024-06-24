@@ -897,6 +897,13 @@ export class AppComponent {
     this.searchTerm = suggestion.name;
     this.filterItems();
   }
+
+  clearSearch() {
+    this.searchTerm = '';
+    this.showSuggestion = false;
+  }
+
+
 /* Opens up searched result in a popup in google maps
   openGoogleMaps() {
     const suburb = this.searchTerm.trim().toLowerCase();
@@ -907,4 +914,6 @@ export class AppComponent {
     }
   }
 */
+
 }
+
