@@ -1,4 +1,5 @@
 <div class="container">
+
   <div class="input-container">
     <input type="text" [(ngModel)]="searchTerm" (input)="showSuggestions()" placeholder="Search...">
     <button *ngIf="searchTerm" class="clear-button" (click)="clearSearch()">X</button>
@@ -16,4 +17,5 @@
       <span class="zone" *ngIf="item.zone">({{ item.zone }})</span>
     </li>
   </ul>
+
 </div>
