@@ -1,5 +1,8 @@
 <div class="container">
-  <input type="text" [(ngModel)]="searchTerm" (input)="showSuggestions()" placeholder="Search...">
+  <div class="input-container">
+    <input type="text" [(ngModel)]="searchTerm" (input)="showSuggestions()" placeholder="Search...">
+    <button *ngIf="searchTerm" class="clear-button" (click)="clearSearch()">X</button>
+  </div>
   <ul class="suggestions" *ngIf="showSuggestion">
     <li *ngFor="let suggestion of suggestedItems" (click)="selectSuggestion(suggestion)">
       {{ suggestion.name }}
