@@ -208,6 +208,8 @@ export class AppComponent {
 { name: 'ABBOTSFORD', zone: 'Zone 8' },
 { name: 'BROADMEADOWS', zone: 'Zone 8' },
 { name: 'CAMPBELLFIELD', zone: 'Zone 8' },
+{ name: 'Carlton', zone: 'Zone 8' },
+
 { name: 'CLIFTON HILL', zone: 'Zone 8' },
 { name: 'COLLINGWOOD', zone: 'Zone 8' },
 { name: 'DOCKLANDS', zone: 'Zone 8' },
@@ -263,6 +265,9 @@ export class AppComponent {
 { name: 'GLENHUNTLY', zone: 'Zone 10' },
 { name: 'RIPPONLEA', zone: 'Zone 10' },
 { name: 'HAMPTON', zone: 'Zone 10' },
+{ name: 'Elwood', zone: 'Zone 10' },
+{ name: 'Capel sound', zone: 'DDY 4' },
+
 // TULLA
 { name: 'Beveridge', zone: 'Tulla' },
 { name: 'Bylands', zone: 'Tulla' },
@@ -288,7 +293,6 @@ export class AppComponent {
 { name: 'Romsey', zone: '699-799' },
 
 
-// OLD DATA, DELETE WHEN UPDATED NEW DATA
 
 // { name: 'Abbotsford', zone: 'Zone 6' },
 // { name: 'Bentleigh East', zone: 'Zone 10' },
