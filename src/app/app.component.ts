@@ -183,6 +183,8 @@ export class AppComponent {
 { name: 'ALL HEIDELBERG', zone: 'Zone 6' },
 { name: 'MACLEOD', zone: 'Zone 6' },
 { name: 'ROSANA', zone: 'Zone 6' },
+{ name: 'Heidelberg (ALL)', zone: 'Zone 6' },
+
 // ZONE 7
 { name: 'ALPHINGTON', zone: 'Zone 7' },
 { name: 'FAIRHELD', zone: 'Zone 7' },
@@ -204,6 +206,8 @@ export class AppComponent {
 { name: 'SURREY HILLS', zone: 'Zone 7' },
 { name: 'EAGLEMONT', zone: 'Zone 7' },
 { name: 'TEMPLESTOWE LOWER', zone: 'Zone 7' },
+{ name: 'Thornbury', zone: 'Zone 7' },
+
 // ZONE 8
 { name: 'ABBOTSFORD', zone: 'Zone 8' },
 { name: 'BROADMEADOWS', zone: 'Zone 8' },
@@ -671,6 +675,8 @@ export class AppComponent {
 // { name: 'Manor Lakes', zone: 'Zone 1' },
 // { name: 'Mambourin', zone: 'Zone 1' },
 { name: 'Parkdale', zone: 'DDY 6' },
+{ name: 'Pearcedale', zone: 'DDY 4' },
+
 // { name: 'Parwan', zone: 'Zone 3B' },
 // { name: 'Parkville', zone: 'Zone 5' },
 // { name: 'Pascoe Vale', zone: 'Zone 4' },
