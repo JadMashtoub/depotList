@@ -75,7 +75,7 @@ export class AppComponent {
     { name: 'MARIBYRNONG', zone: 'Zone 2' },
     { name: 'NEWPORT', zone: 'Zone 2' },
     // ZONE 3
-    { name: 'ANTREE', zone: 'Zone 3' },
+    { name: 'AINTREE', zone: 'Zone 3' },
 { name: 'KEILOR NORTH', zone: 'Zone 3' },
 { name: 'ATTWOOD', zone: 'Zone 3' },
 { name: 'KINGS PARK', zone: 'Zone 3' },
@@ -296,6 +296,14 @@ export class AppComponent {
 { name: 'Woodend', zone: '699-799' },
 { name: 'Romsey', zone: '699-799' },
 
+
+{ name: 'Lyndhurst', zone: 'DDY 3' },
+{ name: 'Coolaroo', zone: 'DDY 8' },
+{ name: 'Botanic ridge', zone: 'DDY 6' },
+{ name: 'Dallas', zone: 'Zone 8' },
+{ name: 'West footscray', zone: 'Zone 2' },
+{ name: 'Junction village', zone: 'DDY 3' },
+{ name: 'Princes hill', zone: 'DDY 8' },
 
 
 // { name: 'Abbotsford', zone: 'Zone 6' },
