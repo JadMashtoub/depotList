@@ -305,6 +305,7 @@ export class AppComponent {
 { name: 'Junction village', zone: 'DDY 3' },
 { name: 'Princes hill', zone: 'DDY 8' },
 
+{ name: 'The Basin', zone: 'DDY 1' },
 
 // { name: 'Abbotsford', zone: 'Zone 6' },
 // { name: 'Bentleigh East', zone: 'Zone 10' },
