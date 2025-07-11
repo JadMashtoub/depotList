@@ -76,6 +76,7 @@ export class AppComponent {
     { name: 'NEWPORT', zone: 'Zone 2' },
     // ZONE 3
         { name: 'DOREEN', zone: 'Zone 3' },
+    { name: 'SOUTH MORANT', zone: 'Zone 3' },
 
     { name: 'AINTREE', zone: 'Zone 3' },
 { name: 'KEILOR NORTH', zone: 'Zone 3' },
@@ -164,6 +165,8 @@ export class AppComponent {
 { name: 'MOONE PONDS', zone: 'Zone 5' },
 { name: 'PASCOE VALE', zone: 'Zone 5' },
 { name: 'PASCOE VALE SOUTH', zone: 'Zone 5' },
+    { name: 'COOLAMON', zone: 'Zone 5' },
+
 // ZONE 6
 { name: 'ABBOTSFORD', zone: 'Zone 6' },
 { name: 'KEW EAST', zone: 'Zone 6' },
